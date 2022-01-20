@@ -1,0 +1,57 @@
+******************************************************************* Veriables Naming Convention ***************************************************************************
+
+1: class veriables first latter of each is capital ;
+2: public veriables first latter of each is capital ;
+3:Private veriables first latter is with _ and then camelcasing the name e.g privae _FirstName;
+4: Methods veriables first latter of each is small and then capital;
+5: Use pascal casing ("PascalCasing") when naming a class, record, or struct.
+6: When naming an interface, use pascal casing in addition to prefixing the name with an I. This clearly indicates to consumers that it's an interface.
+7: When naming public members of types, such as fields, properties, events, methods, and local functions, use pascal casing.
+8: Use camel casing ("camelCasing") when naming private or internal fields, and prefix them with _.
+
+
+
+******************************************************************* Visual studio Shortcuts***************************************************************************
+
+1: Ctrl K + D                   formate document
+2: Ctrl K + C                   Comment Selected Text
+3: Ctrl K + U                   UnComment Selected Text
+4: Ctrl Space                   show Intellisense
+5: Ctrl K + C                   Comment Selected Text
+6: Ctrl Shift + Enter           Toggle Full Screen
+7: Ctrl M + O                   Collapse All Element
+8: Ctrl Shift + U               Convert Selected Text to upper text
+9: Ctrl U                       Convert Selected Text to lower case 
+
+
+******************************************************************* Tags***************************************************************************
+
+SELECT * FROM websequelsql (table containg tags in db PHERQA)
+
+
+******************************************************************* Db Credantiols ***************************************************************************
+DB_USER value="scripts" 
+DBServer value="LOCAL_SUPPORT" 
+DB_PASS" value="sqlscripts10gxxx" 
+
+
+DB_USER value="scripts" 
+DBServer value="LOCAL_PEHRAUTH" 
+DB_PASS" value="sqlscripts10gxxx" 													
+
+DB_USER value="scripts" 
+DBServer value="SPLITAUTH" 
+DB_PASS" value="sqlscripts10gxxx" 
+
+
+DB_USER value="scripts" 
+DBServer value="PEHRQA" 
+DB_PASS" value="sqlscripts10gxxx" 
+
+
+******************************************************************* TESTING CREDENTIALS ***************************************************************************
+https://qaauth.practiceehr.com
+qaadmin@practiceehr.com
+Qa@utH
+******************************************************************* Build Command ***************************************************************************
+.\build.bat --target=64bit
